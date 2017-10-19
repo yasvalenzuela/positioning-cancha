@@ -1,0 +1,85 @@
+.green {
+	background-color: #8cb27c;
+	padding: 10px;
+	width: 760px;
+	height: 400px;
+	top: 10px;
+	left: 100px;
+	/*border: 10px solid white;*/
+	position: relative;
+}
+
+.border {
+	position: absolute; /*duda*/
+	width: 730px;
+	height: 370px;
+	margin: 10px;
+	border: 4px solid #FFFFFF;
+}
+
+.circle-center{
+	position: absolute;
+	padding: 10px;
+	width: 120px;
+	height: 120px;
+	top: 130px;
+	left: 310px;
+	border: 4px solid #FFFFFF;
+	border-radius: 100px;
+	display: inline-block;
+}
+
+.goal-left{
+	position: absolute;
+	padding: 10px;
+	width: 50px;
+	height: 120px;
+	top: 130px;
+	left: 20px;
+	border: 4px solid #FFFFFF;
+	display: inline-block;
+
+}
+
+.goal-right{
+	position: absolute;
+	padding: 10px;
+	width: 50px;
+	height: 120px;
+	top: 130px;
+	left: 680px;
+	border: 4px solid #FFFFFF;
+	display: inline-block;
+
+}
+
+.ball-one{
+	position: absolute;
+	background-image: url(../img/ball.png);
+	width: 20px;
+	height: 20px;
+	top: 133px;
+	left: 82px;
+	background-size: 100%;
+}
+
+.ball-two{
+	position: absolute;
+	background-image: url(../img/ball.png);
+	width: 20px;
+	height: 20px;
+	top: 85px;
+	left: 400px;
+	background-size: 100%;
+}
+
+.ball-three{
+	position: absolute;
+	background-image: url(../img/ball.png);
+	width: 20px;
+	height: 20px;
+	top: 245px;
+	left: 655px;
+	background-size: 100%;
+	
+}
